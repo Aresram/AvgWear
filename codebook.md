@@ -5,6 +5,7 @@
 ##Going from raw data to AverageofTrainTestMeanStdCols.txt
 
 *Data Transformations:*
+
 *Read in test data, training data, activity codes, subject/volunteer ids, and feature/column names as data frames using _read.table_
 
 *Saved single column from feature data frame as a list to be used as column names. Clean feature names of special characters and seperate terms by a "."
