@@ -69,11 +69,17 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 
 ##Notes
+
 *Values in the AverageofTrainTestMeanStdCols.txt data set are averages of the mean and std data in UCI HAR
+
 *Variable/Column names are thus denoted as "Mean of"
+
 *Original variable/column names abbreviate frequency and time measurements as "f" and "t", to be descriptive they have been denoted by "Time for" and "Frequency signal for"
+
 *Original variable/column names have been cleaned of special characters to enhance human readability
+
 *Variable/Column names use a version of the original names to preserve the connection between the Mean dataset and the raw data. Original column names serve to describe what measurements and operations were done to the data before being cleaned for this Mean dataset.
+
 *Variable/Column names serve as easy reference for a human looking at both the Mean dataset and the raw data. The human can easily understand the relationship between the two data sets by the similar variable/column names 
 
 
