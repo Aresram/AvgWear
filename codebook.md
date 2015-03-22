@@ -5,7 +5,7 @@
 ##Going from raw data to AverageofTrainTestMeanStdCols.txt
 
 *Data Transformations:*
-*Read in test data, training data, activity codes, subject/volunteer ids, and feature/column names as data frames using *read.table*
+*Read in test data, training data, activity codes, subject/volunteer ids, and feature/column names as data frames using _read.table_
 
 *Saved single column from feature data frame as a list to be used as column names. Clean feature names of special characters and seperate terms by a "."
 
@@ -13,7 +13,7 @@
 
 *Add column name to subject/volunteer id data frame: "Subject Identifier"
 
-*Replace number values in activity data frame with their descriptive text counterparts i.e. replace(1, "WALKING"); see Metadata(1) *Activity Label*
+*Replace number values in activity data frame with their descriptive text counterparts i.e. replace(1, "WALKING"); see Metadata(1) _Activity Label_
 
 *Add column name to activity data frame: "Activity Label"
 
@@ -66,6 +66,8 @@ angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable."
 
+
+##Notes
 *Values in the AverageofTrainTestMeanStdCols.txt data set are averages of the mean and std data in UCI HAR
 *Variable/Column names are thus denoted as "Mean of"
 *Original variable/column names abbreviate frequency and time measurements as "f" and "t", to be descriptive they have been denoted by "Time for" and "Frequency signal for"
@@ -97,26 +99,26 @@ Indicates a unique volunteer from which the data was taken. Volunteers numbered 
 
 6 LAYING
 
-##Measurement Data\n
+##Measurement Data
 
 
-*-Data taken for 3 axes*\n
+*-Data taken for 3 axes*
 
-3."Mean of Time.for.BodyAcc.mean.X"\n
+3."Mean of Time.for.BodyAcc.mean.X"
 
-4."Mean of Time.for.BodyAcc.mean.Y"\n
+4."Mean of Time.for.BodyAcc.mean.Y"
 
-5."Mean of Time.for.BodyAcc.mean.Z"\n
+5."Mean of Time.for.BodyAcc.mean.Z"
 
-*-Data taken for 3 axes*\n
+*-Data taken for 3 axes*
 
-6."Mean of Time.for.BodyAcc.std.X"\n
+6."Mean of Time.for.BodyAcc.std.X"
 
-7."Mean of Time.for.BodyAcc.std.Y"\n
+7."Mean of Time.for.BodyAcc.std.Y
 
-8."Mean of Time.for.BodyAcc.std.Z"\n
+8."Mean of Time.for.BodyAcc.std.Z"
 
-*-Data taken for 3 axes*\n
+*-Data taken for 3 axes*
 
 9."Mean of Time.for.GravityAcc.mean.X"
 
@@ -301,4 +303,24 @@ Indicates a unique volunteer from which the data was taken. Volunteers numbered 
 "Mean of Frequency.signal.for.BodyBodyGyroJerkMag.std"
 
 "Mean of Frequency.signal.for.BodyBodyGyroJerkMag.meanFreq"
+
+
+
+
+
+
+
+
+
+
+###License:
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
 
